@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.foodinator.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "E:\\School\\Advanced Design\\Projects_Current\\Food Maker\\UnityFiles\\Foodinator\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Foodinator [Testing]"
+        }
+      }
+    }
+  ]
+}
