@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WelcomeButton : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public GameObject userMenu;
     public GameObject welcomeMenu;
     public GameObject adultMenu;
     public GameObject KidsMenu;
-    public GameObject retrieveFood;
+    
 
     public void welcomeScreen()
     {
@@ -30,12 +30,5 @@ public class WelcomeButton : MonoBehaviour
 
     }
 
-    /*/public void foodRetrieval()
-    {
-        adultMenu.SetActive(false);
-        KidsMenu.SetActive(false);
-        
 
-
-    }/*/
 }
