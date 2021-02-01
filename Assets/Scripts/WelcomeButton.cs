@@ -8,6 +8,7 @@ public class WelcomeButton : MonoBehaviour
     public GameObject welcomeMenu;
     public GameObject adultMenu;
     public GameObject KidsMenu;
+    public GameObject retrieveFood;
 
     public void welcomeScreen()
     {
@@ -28,4 +29,13 @@ public class WelcomeButton : MonoBehaviour
         KidsMenu.SetActive(true);
 
     }
+
+    /*/public void foodRetrieval()
+    {
+        adultMenu.SetActive(false);
+        KidsMenu.SetActive(false);
+        
+
+
+    }/*/
 }
