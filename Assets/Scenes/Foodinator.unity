@@ -669,6 +669,7 @@ GameObject:
   - component: {fileID: 242316903}
   - component: {fileID: 242316902}
   - component: {fileID: 242316901}
+  - component: {fileID: 242316904}
   m_Layer: 10
   m_Name: 'Childrens Food - 2 '
   m_TagString: Untagged
@@ -776,6 +777,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 242316899}
   m_CullTransparentMesh: 0
+--- !u!65 &242316904
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242316899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 131.20987, y: 19.052708, z: 1.0563384}
+  m_Center: {x: -4.0067086, y: 0.36531842, z: 0.02816905}
 --- !u!1 &259705047
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +882,7 @@ GameObject:
   - component: {fileID: 288314129}
   - component: {fileID: 288314128}
   - component: {fileID: 288314127}
+  - component: {fileID: 288314130}
   m_Layer: 5
   m_Name: ChildrensMenu
   m_TagString: Untagged
@@ -986,6 +1001,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288314125}
   m_CullTransparentMesh: 0
+--- !u!65 &288314130
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288314125}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 106.65437, y: 19.052706, z: 1.0563383}
+  m_Center: {x: -4.990225, y: 0.36531842, z: 0.028169045}
 --- !u!1 &348218599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,6 +1518,7 @@ GameObject:
   - component: {fileID: 529312368}
   - component: {fileID: 529312367}
   - component: {fileID: 529312370}
+  - component: {fileID: 529312371}
   m_Layer: 9
   m_Name: Parents Food - 1
   m_TagString: Untagged
@@ -1623,6 +1652,19 @@ MonoBehaviour:
   plateOfFood: {fileID: 1485553211}
   currentMenu: {fileID: 692972683}
   foodRetrieval: {fileID: 1757777134}
+--- !u!65 &529312371
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529312365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 131.20987, y: 19.052708, z: 1.0563384}
+  m_Center: {x: -4.0067086, y: 0.36531842, z: 0.02816905}
 --- !u!1 &596950025
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,6 +2451,7 @@ GameObject:
   - component: {fileID: 791157587}
   - component: {fileID: 791157586}
   - component: {fileID: 791157585}
+  - component: {fileID: 791157588}
   m_Layer: 10
   m_Name: 'Childrens Food - 1 '
   m_TagString: Untagged
@@ -2516,6 +2559,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791157583}
   m_CullTransparentMesh: 0
+--- !u!65 &791157588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791157583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 131.20987, y: 19.052708, z: 1.0563384}
+  m_Center: {x: -4.0067086, y: 0.36531842, z: 0.02816905}
 --- !u!4 &836526453 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 2e5cd4f1c15e26f41b81566598d56531,
@@ -2534,6 +2590,7 @@ GameObject:
   - component: {fileID: 843526471}
   - component: {fileID: 843526470}
   - component: {fileID: 843526469}
+  - component: {fileID: 843526472}
   m_Layer: 9
   m_Name: Parents Food - 3
   m_TagString: Untagged
@@ -2641,6 +2698,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843526467}
   m_CullTransparentMesh: 0
+--- !u!65 &843526472
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843526467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 131.20987, y: 19.052708, z: 1.0563384}
+  m_Center: {x: -4.0067086, y: 0.36531842, z: 0.02816905}
 --- !u!1001 &869915082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2830,6 +2900,7 @@ GameObject:
   - component: {fileID: 1032598560}
   - component: {fileID: 1032598559}
   - component: {fileID: 1032598558}
+  - component: {fileID: 1032598561}
   m_Layer: 10
   m_Name: 'Childrens Food - 3 '
   m_TagString: Untagged
@@ -2937,6 +3008,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032598556}
   m_CullTransparentMesh: 0
+--- !u!65 &1032598561
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032598556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 131.20987, y: 19.052708, z: 1.0563384}
+  m_Center: {x: -4.0067086, y: 0.36531842, z: 0.02816905}
 --- !u!1 &1080626701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3225,6 +3309,7 @@ GameObject:
   - component: {fileID: 1225130334}
   - component: {fileID: 1225130333}
   - component: {fileID: 1225130332}
+  - component: {fileID: 1225130335}
   m_Layer: 5
   m_Name: NewMenu
   m_TagString: Untagged
@@ -3333,6 +3418,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225130330}
   m_CullTransparentMesh: 0
+--- !u!65 &1225130335
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225130330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 106.65437, y: 19.052706, z: 1.0563383}
+  m_Center: {x: -4.990225, y: 0.36531842, z: 0.028169045}
 --- !u!4 &1229607027 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ca7fb63e056d56947a8c6a27faa627c6,
@@ -3351,6 +3449,7 @@ GameObject:
   - component: {fileID: 1245724736}
   - component: {fileID: 1245724735}
   - component: {fileID: 1245724734}
+  - component: {fileID: 1245724737}
   m_Layer: 9
   m_Name: Parents Food - 2
   m_TagString: Untagged
@@ -3458,6 +3557,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245724732}
   m_CullTransparentMesh: 0
+--- !u!65 &1245724737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245724732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 131.20987, y: 19.052708, z: 1.0563384}
+  m_Center: {x: -4.0067086, y: 0.36531842, z: 0.02816905}
 --- !u!1001 &1256370095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4177,6 +4289,7 @@ GameObject:
   - component: {fileID: 1370072396}
   - component: {fileID: 1370072395}
   - component: {fileID: 1370072394}
+  - component: {fileID: 1370072397}
   m_Layer: 5
   m_Name: ParentsMenu
   m_TagString: Untagged
@@ -4295,6 +4408,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370072392}
   m_CullTransparentMesh: 0
+--- !u!65 &1370072397
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370072392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 106.65437, y: 19.052706, z: 1.0563383}
+  m_Center: {x: -4.990225, y: 0.36531842, z: 0.028169045}
 --- !u!1 &1400361366
 GameObject:
   m_ObjectHideFlags: 0
@@ -4999,6 +5125,7 @@ GameObject:
   - component: {fileID: 1572668947}
   - component: {fileID: 1572668949}
   - component: {fileID: 1572668948}
+  - component: {fileID: 1572668950}
   m_Layer: 8
   m_Name: Text
   m_TagString: Untagged
@@ -5068,6 +5195,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572668946}
   m_CullTransparentMesh: 0
+--- !u!65 &1572668950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572668946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 79.93091, y: 24.318468, z: 1}
+  m_Center: {x: 0.52946216, y: 9.594723, z: 0}
 --- !u!1 &1578454655
 GameObject:
   m_ObjectHideFlags: 0
