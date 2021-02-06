@@ -9,6 +9,7 @@ public class foodButton : MonoBehaviour
     public GameObject plateOfFood;
     public GameObject currentMenu;
     public GameObject foodRetrieval;
+    public GameObject welcome;
 
 
     public void makeFoodAppear()
@@ -16,6 +17,13 @@ public class foodButton : MonoBehaviour
         plateOfFood.SetActive(true);
         currentMenu.SetActive(false);
         foodRetrieval.SetActive(true);
+
+    }
+
+    public void machineReset()
+    {
+        foodRetrieval.SetActive(false);
+        welcome.SetActive(true);
 
     }
 }
