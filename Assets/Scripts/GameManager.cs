@@ -8,12 +8,27 @@ public class GameManager : MonoBehaviour
     public GameObject welcomeMenu;
     public GameObject adultMenu;
     public GameObject KidsMenu;
-    
+    public Animator Animation;
+
+
 
     public void welcomeScreen()
     {
-        welcomeMenu.SetActive(false);
-        userMenu.SetActive(true);
+        
+            StartCoroutine(Text());
+
+            IEnumerator Text()
+            {
+
+                Animation.SetBool("trigger", true);
+
+                yield return new WaitForSeconds(1.0f);
+                Animation.SetBool("trigger", false);
+            welcomeMenu.SetActive(false);
+            userMenu.SetActive(true);
+        }
+        
+       
     }
 
     public void grownUpMenu()
@@ -29,6 +44,8 @@ public class GameManager : MonoBehaviour
         KidsMenu.SetActive(true);
 
     }
+
+
 
 
 }
