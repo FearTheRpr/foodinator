@@ -19,6 +19,8 @@ namespace Valve.VR.InteractionSystem
 
         protected Hand currentHand;
 
+		public AudioSource Beep;
+
 		//-------------------------------------------------
 		protected virtual void Awake()
 		{
@@ -63,6 +65,8 @@ namespace Valve.VR.InteractionSystem
         protected virtual void OnButtonClick()
 		{
 			onHandClick.Invoke( currentHand );
+
+			Beep.Play();
 		}
 	}
 
