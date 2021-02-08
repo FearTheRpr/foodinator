@@ -5,6 +5,7 @@ using UnityEngine;
 public class AnimationManager : MonoBehaviour
 {
     public Animator Animation;
+    public AudioSource Door;
 
     public void openDoor()
     {
@@ -17,6 +18,9 @@ public class AnimationManager : MonoBehaviour
 
             yield return new WaitForSeconds(0.5f);
             Animation.SetBool("Trigger", false);
+
+            Door.Play();
+
 
         }
     }
